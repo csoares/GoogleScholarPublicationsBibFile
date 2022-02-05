@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import os
 from serpapi import GoogleSearch
 from dotenv import load_dotenv
@@ -6,9 +8,9 @@ from dotenv import load_dotenv
 collection = []
 
 
-# CHRIS - JOSÉ - RUI - PEDRO - IVO
+# CHRIS - JOSÉ - RUI - PEDRO - IVO - LOBO
 authors_id = ["-HHz0G8AAAAJ", "U_E1voQAAAAJ",
-              "_SvK39MAAAAJ", "r_NZkGUAAAAJ", "-7DehO8AAAAJ"]
+              "_SvK39MAAAAJ", "r_NZkGUAAAAJ", "-7DehO8AAAAJ", "8cTP_acAAAAJ"]
 
 
 def checkKey(dict, key):
