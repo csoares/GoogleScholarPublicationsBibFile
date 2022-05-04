@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
 
 import os
 from serpapi import GoogleSearch
@@ -20,7 +22,7 @@ def checkKey(dict, key):
 
 
 def write_to_file():
-    file_object = open("reference.bib", "a+")
+    file_object = open("reference.bib", "a+", encoding="utf-8")
     file_object.truncate(0)
     for index, article in enumerate(collection):
         file_object.write("@article{A" + str(index) + ",\r\n")
